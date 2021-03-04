@@ -21,16 +21,16 @@
 </head>
 <body>
 <div class="jumbotron text-center" style="background: #fff;">
-  <h1 class="display-3" style="font-weight:500; font-family: 'Alfa Slab One', cursive;">You're all set <i class="fa fa-check-circle text-success"></i></h1><br>
+  <h1 class="display-3" style="font-weight:500; color: #000; font-family: 'Alfa Slab One', cursive;">You're all set <i class="fa fa-check-circle text-success"></i></h1><br>
   <img src="https://cdn.drawception.com/drawings/CBfP6Yyw4a.png">
 <br><br>
-  <p class="lead text-success font-weight-bold" style="font-family: 'Krona One', sans-serif;">Now go out there and make new friends!</p>
+  <p class="lead text-primary font-weight-bold" style="font-family: 'Krona One', sans-serif;">Now go out there and make new friends!</p>
   <hr>
   <p style="font-family: 'Krona One', sans-serif; font-size: 15px;" class="font-weight-bold">
-    Having trouble? <a href="mailto:nhicvoting@gmail.com" class="text-primary">Hit Us Up!</a>
+    Having trouble? <a href="mailto:nhicvoting@gmail.com" class="text-success">Hit Us Up!</a>
   </p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg font-weight-bold" style="font-family: 'Archivo Black', sans-serif;" href="../../login2/login.php" role="button">Login Here</a>
+    <a class="btn btn-outline-primary btn-lg font-weight-bold" style="font-family: 'Archivo Black', sans-serif;" href="../../login2/login.php" role="button">Login Now</a>
   </p>
 
 </div>
