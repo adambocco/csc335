@@ -22,12 +22,12 @@
 
     <title>Bow Wow Login</title>
   </head>
-  <body class="bg-light">
+  <body style="background: #ffffff;">
 
 
   <div class="d-lg-flex half bg-dark">
     <!-- https://i.pinimg.com/564x/65/a3/34/65a3346ecff95d4835c2a5b136b27e7a.jpg -->
-    <div class="bg order-1 order-md-2" style="background-image: url('https://www.wellandgood.com/wp-content/uploads/2017/07/Cookie-ps.ny_.jpg');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('https://i.pinimg.com/originals/98/9d/0c/989d0c8bdb7985fae0bc842319e66ae6.jpg');"></div>
     <div class="contents order-2 order-md-1">
       <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent">
@@ -42,11 +42,12 @@
     </button>
   </nav>
 </div>
-      <div class="container bg-light text-dark">
+      <div class="container text-dark" style="background: #ffffff;">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7">
             <div class="mb-4">
-              <h3 style="font-weight: 700; font-family: 'Anton', sans-serif; font-size: 35px;" class="text-center font-weight-bold text-primary">Bow-wow Login</h3>
+              <img src="https://i.pinimg.com/originals/07/de/bd/07debd3c60f7e252e42fa76f516624e5.png" style="border-radius: 50%; width: 200px; position: relative; left: 150px;" class="mb-6">
+              <h3 style="font-weight: 700; font-family: 'Akaya Kanadaka', cursive; font-size: 35px;" class="text-center font-weight-bold text-dark">Bow-wow Login</h3>
             </div>
             <form action="../socialMediaApp/backendLogic/validate_login.php" method="post">
               <?php
@@ -55,6 +56,9 @@
       echo '<p class="alert alert-danger font-weight-bold">You have left both fields blank <i class="fa fa-exclamation-circle"></i></p>';
     }
 
+    else if(strpos($url, "invalidEmail") == TRUE){
+      echo '<p class="alert alert-danger font-weight-bold">You need to enter an email as your username <i class="fas fa-exclamation-circle"></i></p>';
+    }
     else if(strpos($url, "sqlError") ==TRUE){
       echo '<p class="alert alert-warning font-weight-bold">an unknown database error occurred <i class="fa fa-exclamation-circle"></i></p>';
     }
@@ -70,7 +74,7 @@
     ?>
               <div class="form-group first">
                 <label for="username" class="form-label text-dark font-weight-bold" style="font-family: 'Akaya Kanadaka', cursive; font-size: 25px;">Email</label>
-                <input type="text" class="form-control" style="font-family: 'Anton', sans-serif;" id="email" name="email">
+                <input type="text" class="form-control" style="font-family: 'Akaya Kanadaka', cursive;" id="email" name="email">
 
               </div>
               <div class="form-group last mb-3">

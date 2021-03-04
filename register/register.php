@@ -30,27 +30,28 @@
 
 <!--===============================================================================================-->
 </head>
-<body style="background-color: #666666;">
+<body style="background-color: #ffffff;">
 
-	<div class="limiter">
+	<div class="limiter" style="background: #ffff;">
 
-<div class="pos-f-t">
+<div class="pos-f-t bg-primary">
   <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-light p-4">
+    <div class="p-4 bg-primary">
       <h4 class="text-dark"></h4>
-      <a class="text-dark font-weight-bold" href="../socialMediaApp/Tempo/index.html" style="font-weight: 700;">Go Home</a><br><br>
-			<a class="text-dark font-weight-bold" href="../login2/login.php" style="font-weight: 700;">Login</a>
+      <a class="text-light font-weight-bold " href="../socialMediaApp/Tempo/index.html" style="font-weight: 900;">Go Home</a><br><br>
+			<a class="text-light font-weight-bold" href="../login2/login.php" style="font-weight: 900;">Login</a>
 		</div>
   </div>
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-dark bg-primary font-weight-bold">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </nav>
 </div>
-		<div class="container-login100">
+		<div class="container-login100" style="background: #ffffffff;">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form" autocomplete="off" action='../socialMediaApp/backendLogic/validate_register.php' method="POST">
+					<img src="https://i.pinimg.com/originals/07/de/bd/07debd3c60f7e252e42fa76f516624e5.png" style="border-radius: 50%; width: 200px; position: relative; left: 150px; margin-bottom: 20px; padding-bottom: 20px;">
 					<span class="login100-form-title p-b-43" style="font-weight: 900; color: #5294ff; font-family: 'Akaya Kanadaka', cursive; font-size: 35px;">
 						Signup now and meet new friends!
 					</span>
@@ -123,7 +124,7 @@
 
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
 						<div>
-							<p class="text-dark font-weight-bold">Already have an account? <a class="text-primary" href="../login2/login.php">Login here</a></p>
+							<p class="text-dark font-weight-bold">Already have an account? <a class="text-primary font-weight-bold" href="../login2/login.php">Login here</a></p>
 						</div>
 
 						<div>
@@ -141,7 +142,7 @@
 					</div>
 				</form>
 
-				<div class="login100-more" style="background-image: url('https://topdogtips.com/wp-content/uploads/2016/06/Dogs-That-Are-the-Biggest-Social-Media-Stars2.jpg');">
+				<div class="login100-more" style="background-image: url('https://d.newsweek.com/en/full/1438738/dog-beach.jpg?w=1600&h=1200&q=88&f=106c0742e7d607498f3e1a0fe521ef23');">
 				</div>
 			</div>
 		</div>
